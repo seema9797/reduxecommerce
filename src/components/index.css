@@ -1,0 +1,129 @@
+.mutibtn {
+    display: flex !important;
+    justify-content: center;
+}
+.mainmut {
+    display: flex !important;
+    justify-content: center;
+}
+.mainback {
+    display: flex;
+    justify-content: center;
+}
+.mainback h3 {
+    align-items: center;
+}
+.inputflex {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    margin-top: 40px;
+    margin-right: 90px !important;
+}
+.inputflex1 {
+    margin: 10px 10px 30px;
+}
+.inputflex1 input {
+    padding: 10px 30px 10px;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.selectfield {
+    padding: 10px 30px 10px;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.inputflex1 .serach {
+    position: absolute;
+    margin: 15px 10px 0px;
+}
+.serach:hover {
+    border: 1px solid gray !important;
+}
+.mainback {
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.mainback h3 {
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    width: 80%;
+    margin-left: 150px;
+    padding-bottom: 20px;
+}
+.mutibtn li {
+    text-decoration: none;
+    list-style: none;
+}
+.mutibtn li button {
+    border: 2px solid palevioletred;
+    background-color: #fff;
+    display: flex !important;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.subcard {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    justify-content: center;
+    row-gap: 3em;
+}
+.subcard1 {
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    transition: transform 0.2s ease;
+    margin-bottom: 1.5em;
+}
+.subcard1:hover {
+    transform: scale(1.1);
+}
+.btn-pink:hover {
+    background-color: crimson;
+    color: black;
+    border: 0;
+}
+.subcard1 img {
+    height: 150px;
+    width: 150px;
+}
+.subcard button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.productde {
+    display: flex;
+    justify-content: space-around;
+}
+.addtocat {
+    display: flex;
+}
+.addtocat button {
+    border: 1px solid gray;
+    padding: 10px;
+    margin-right: 25px;
+    border-radius: 5px;
+}
+.addtocart {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+}
+.addtocat1 button {
+    margin-right: 25px;
+    border: 1px solid gray;
+    width: 25px;
+    border-radius: 2px;
+}
+.liststyle {
+    margin-top: 48px !important;
+}
